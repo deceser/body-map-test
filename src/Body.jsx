@@ -1,5 +1,5 @@
 export default function Body({ onPartClick, selected }) {
-  const makeClickHandler = name => e => onPartClick(name);
+  const makeClickHandler = name => () => onPartClick(name);
 
   return (
     <svg viewBox="0 0 283.746 529.262">
