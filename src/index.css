@@ -17,7 +17,15 @@ body {
 .wrapper {
   display: flex;
   height: 500px;
-  transform: rotate(-50%);
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+
+    width: 400px;
+  }
 }
 
 .a,
